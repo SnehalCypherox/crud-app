@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: #232023;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.flex {
+  display: flex;
+}
+header h2 {
+  margin: 0;
+  padding: 10px;
+}
+ul li {
+  list-style-type: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.error {
+  display: block;
+}
+
+.form-wrapper {
+  margin: 50px;
+}
+
+.nav {
+  display: flex;
+}
+
+input.form-control {
+  padding: 10px;
+  border: 2px solid #ccc;
+  margin: 10px;
+  border-radius: 10px;
+}
+label {
+  color: black !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  margin-top: 15px !important;
+}
+.btn {
+  display: flex !important;
+  margin: 10% auto !important;
+  background-color: #Dc143C !important;
+}
+.card {
+  padding: 50px !important;
+  filter: drop-shadow(30px 20px 8px #ccc);
+}
+.error {
+  padding-left: 14px;
+  color: red;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #Dc143C !important;
+  display: flex;
+  align-items: center;
+  font-size: 18px !important;
+}
+
+.main-title {
+  padding: 20px;
+}
+
+.navbar {
+  justify-content: space-around;
+}
+
+.navbar a span {
+  font-weight: 700;
+}
+
+
+.nav li {
+  padding: 0 20px;
+}
+/* ================= */
+
+.wrapper {
+  padding-top: 30px;
+}
+  
+body h3 {
+  margin-bottom: 25px;
+}
+  
+.navbar-brand a {
+  color: #ffffff;
+}
+  
+.form-wrapper,
+.table-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+  
+.table-wrapper {
+  max-width: 700px;
+  padding-top: 5%;
+}
+  
+.edit-link {
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 0.2rem;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  margin-right: 10px;
+  position: relative;
+  top: 1px;
+}
+  
+.edit-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+  
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+  
+.tbl-head th{
+  color: black !important;
+  font-weight: 700 !important;
+  font-size: 17px !important;
+}
+
+button{
+  margin: 5px !important; 
+}
+
+thead tr th,tbody tr td  {
+  text-align: center !important;
+  font-size: 16px !important;
+}
+.NF-img {
+  display: flex;
+  margin: auto;
+}
